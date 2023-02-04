@@ -1,0 +1,61 @@
+RM_SCRIPTS
+
+NAME
+	srm	- "safely" remove files by moving them to a safe location.
+	unrm	- moves desired files to the present working directory.
+	durm	- prompts stdout with the total memory in bytes that would
+		  be returned if the safe remove location is cleared
+	lsrm	- lists the directory contents of the safe remove location
+	trash	- removes any file in the safe remove location permanently
+
+SYNOPSIS
+	srm	[OPTION]... [FILE]...
+	unrm 	[FILE]...
+	durm 	...
+	lsrm 	...
+	trash	...
+
+DESCRIPTION
+	srm	- "Safely" remove files by moving them to a safe location. This
+	          program expects there to be an environment variable exported
+	          called $TRASH. If the $TRASH directory does not exist, the
+	          safe remove folder will automatically be created at that 
+	          location.
+	      
+		  If any options are given to srm, the shell built-in rm will 
+	          be used instead. srm accepts all shell built-in rm options.
+	      
+	          If a duplicate file name is already in the safe remove bin,
+	          the program exits and the user is notified.  If the file
+	          a user is trying to safely remove is already in the safe
+	          remove bin, the program exits and the user is notified.
+
+	unrm  	- Moves the desired file(s) to the present working directory.
+	     	  If a safe remove bin does not exist, the user is prompted
+		  and the program exits.
+
+        durm 	- Counts the total amount of bytes that would be restored
+		  if the safe remove bin was cleared by removing its
+		  contents via the trash program, or manual deletion.  The
+		  total bytes returned does not include the size of the
+		  $TRASH directory itself (which on the server is 4096 bytes).
+		  If the safe remove bin does not exist, the user is prompted
+		  and the program exits.
+
+        lsrm	- Lists the directory contents of the safe remove location. If
+		  the safe remove location does not exist, then the user
+		  is prompted and the program exits.  Else, the ls -l program
+		  is executed on the $TRASH directory.
+        
+	trash   - Removes all files in the safe remove location permanently
+		  by executing the rm -rf program on the $TRASH path.  If
+		  the path does not exist, the user is prompted and the
+		  program exits.
+		  
+    EXIT STATUS
+	0	if OK,
+
+     	1	if there are any problems.
+
+COPYRIGHT
+	Copyright 2020
