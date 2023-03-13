@@ -16,7 +16,7 @@ Represents roughly a dozen search algorithms including arrays, lists, and graphs
 ### Project AVR Hangman
 An ATmega32 micontroller project which represents the game of Star Wars themed Hangman with a full musical score.
 
-### NCurses Paint with Networking
+### Project NCurses Paint with Networking
 A program written in C that uses the NCurses library to provide basic "paint" functionality.  Included are both networked and non-networked revisions.  For the networked version, all connection and socket handling are written in C.
 
 ### Project Multithreaded Search
