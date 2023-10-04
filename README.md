@@ -6,7 +6,7 @@ This portfolio is a small representation of miscellaneous school programming pro
 All included repository work has been left unedited beyond the date in which it was deemed "completed" (i.e. turned in or moved on from).
 
 ### Project AWS MapQuest Alarmclock
-The Alarm Clock project combines an Arduino Uno, a SparkFun ESP8266 Thing Dev Board, I2C communication, and AWS (Amazon Web Services).  The Arduino communicates with the Sparkfun ESP device which then connects with AWS to query Mapquest for dynamic traffic information for a desired route.  The traffic information for that route is sent back to the Arduino where it is accounted for in a desired set alarm time.
+The Alarm Clock project combines an Arduino Uno, a SparkFun ESP8266 Thing Dev Board using I2C for interboard communication, and AWS (Amazon Web Services).  The Arduino communicates with the Sparkfun ESP device which then connects with AWS to query Mapquest for dynamic traffic information for a desired route.  The traffic information for that route is sent back to the Arduino where it is accounted for in a desired set alarm time.
 
 Includes source code for microcontroller communication and a high-level diagram.  AWS code not included.
 
