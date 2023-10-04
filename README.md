@@ -1,7 +1,7 @@
 # Public Portfolio
 
 ## Description
-This portfolio is a very small, but publicly available, representation of miscellaneous school programming projects and endeavors.  Examples range from low-level microcontroller projects to complex algorithm benchmarking.
+This portfolio is a small representation of miscellaneous school programming projects and endeavors.  Examples range from low-level microcontroller projects to complex algorithm benchmarking.
 
 All included repository work has been left unedited beyond the date in which it was deemed "completed" (i.e. turned in or moved on from).
 
