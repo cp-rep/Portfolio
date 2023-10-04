@@ -20,7 +20,7 @@ An ATmega32 micontroller project which represents the game of Star Wars Hangman 
 A program written in C that uses the NCurses library to provide basic "paint" functionality.  Included are both networked and non-networked revisions.  For the networked version, all connection and socket handling are written in C.
 
 ### Project Multithreaded Search
-A C project that leverages multithreading to perform a search.
+A small C project that leverages multithreading to perform a search from an early CS class.
 
 ### Template for C++ Project
 A typical extensible project layout I use for most of my Linux-based C++ work.  It adequately organizes my code for small projects while providing up-to-date unit testing functionality with GoogleTest.
