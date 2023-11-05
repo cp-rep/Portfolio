@@ -9,7 +9,7 @@ All included repository work has been left unedited beyond the date in which it 
 Represents roughly a dozen search algorithms including arrays, lists, and graphs.  Thorough benchmarks for these algorithms were written and applied culminating in a detailed analysis for each project.  Project 3 analysis is included.
 
 ### Project AVR Hangman
-An ATmega32 microntroller project which represents the game of Star Wars Hangman with a full musical score.
+An ATmega32 microcontroller project which represents the game of Star Wars Hangman with a full musical score.
 
 ### Project NCurses Paint with Networking
 This was a prersonal project I did after completing a class in C.  It is written in C and uses the NCurses library to provide basic "paint" functionality.  Included are both networked and non-networked revisions.  For the networked version, all connection and socket handling are written in C.
